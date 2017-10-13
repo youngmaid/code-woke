@@ -1,0 +1,25 @@
+<% include ../partials/header %>
+
+<p> list of orgs </p>
+
+<form id="dropdown" method="POST" action='/orgs/org-info'>
+  <select name="categories" id="categories">
+    <option value="activism">Activism</option>
+    <option value="anti-racism">Anti-Racism</option>
+    <option value="climate-change">Climate Change</option>
+    <option value="consumer-rights">Consumer Rights</option>
+    <option value="diversity">Diversity</option>
+    <option value="gender-equality">Gender-Equality</option>
+    <option value="human-rights">Veterans</option>
+    <option value="immigrants">Immigrants</option>
+    <option value="lgbt">LGBT</option>
+    <option value="nyc">NYC</option>
+    <option value="public-education">Public Education </option>
+    <option value="social-justice">Social Justice </option>
+    <option value="voter">Voters</option>
+    <option value="women-in-tech">Women in Tech</option>
+</select>
+<input type="submit"></input>
+</form>
+
+<% include ../partials/footer %>

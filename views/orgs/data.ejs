@@ -1,0 +1,13 @@
+<% include ../partials/header %>
+
+<h1> The data </h1>
+<% data.forEach(({name, city, state}) => { %>
+  <div>
+  <h4><%= name %></h4>
+  <p><%= city %></p>
+  <p><%= state %></p>
+  </div>
+<% }) %>
+
+<% include ../partials/footer %>
+
