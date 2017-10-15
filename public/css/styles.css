@@ -1,10 +1,257 @@
 
 body{
-  background-color: #ffffff;
   font-family: 'Courier';
 }
 
+/*** HEADER SECTION ***/
+
+.jumbotron {
+  background-color: #00cccc;
+  border-bottom: 2px solid #003cb3;
+}
+
 #logo {
+  border:1px solid #000000;
   margin: auto;
   width:70%;
+}
+
+.menu {
+  list-style: none;
+  font-size:2em;
+  margin: 2% 28%;
+}
+
+.menu li {
+  display: inline;
+  padding:3%;
+}
+
+.menu li a {
+  color:#000000;
+}
+
+.menu li a:hover {
+  background-color:#ff4d4d;
+  text-decoration:overline;
+}
+
+
+
+/*** STATS SECTION ***/
+
+/*** chart 1 ***/
+
+.chart {
+  background-color: #cccccc;
+  border:1px solid #000000;
+  padding:4%;
+}
+
+.chart div {
+  font: 20px courier;
+  background-color:aqua;
+  border: 1px solid #000000;
+  text-align: right;
+  padding:1%;
+  margin:1%;
+  color: black;
+ }
+
+.chart div:hover {
+  background-color:red;
+  text-decoration:underline;
+}
+
+/*** chart 2 ***/
+
+.chartlist {
+  width:10%;
+  float:left;
+  list-style:none;
+}
+
+.chartlist li {
+ margin-top:8%;
+ padding:8%;
+}
+
+.chart2 {
+  padding:4%;
+  float:left;
+  }
+
+.chart2 div {
+  font: 16px courier;
+  background-color:aqua;
+  border:1px solid #000000;
+  text-align: right;
+  padding:1%;
+  margin:1%;
+  color: black;
+ }
+
+.chart2 div:hover {
+  background-color:red;
+  text-decoration:underline;
+}
+
+/*** chart 3 ***/
+
+.chartlist2 {
+  clear:both;
+  float:left;
+  list-style:none;
+}
+
+.chartlist2 li{
+  margin-top:8%;
+  padding:12%;
+}
+
+.chart3 {
+  float:left;
+  margin-top:4%;
+  margin-left:6%;
+  }
+
+.chart3 div {
+  font: 16px courier;
+  background-color:aqua;
+  border:1px solid #000000;
+  text-align: right;
+  padding:1%;
+  margin:1%;
+  color: black;
+}
+
+.chart3 div:hover {
+  background-color: red;
+}
+
+.chartlist3 {
+  list-style: none;
+}
+
+/*** Chart 4 ****/
+
+.chartlist3 {
+  list-style: none;
+}
+
+
+.chart4 {
+
+}
+
+.chart4 div {
+  font-family:courier;
+  background-color:#ff4d4d;
+  border:1px solid #000000;
+  text-align: right;
+  padding:1%;
+  margin:1%;
+  color: black;
+ }
+
+ .chart4 div:hover {
+  background-color:aqua;
+}
+
+
+/*** Chart 5 ***/
+
+.chartlist4 {
+  list-style: none;
+}
+
+.chart5 {
+
+}
+
+.chart5 div {
+  font-family:courier;
+  background-color:#ff4d4d;
+  border:1px solid #000000;
+  text-align:right;
+  padding:1%;
+  margin:1%;
+  color: black;
+ }
+
+ .chart5 div:hover {
+  background-color:aqua;
+}
+
+/*** Chart 6 ***/
+
+.chartlist5 {
+  list-style: none;
+}
+
+.chart6 {
+
+}
+
+.chart6 div {
+  font-family:courier;
+  background-color:#cc00cc;
+  border:1px solid #000000;
+  text-align:right;
+  padding:1%;
+  margin:1%;
+  color: black;
+}
+
+.chart6 div:hover {
+  background-color:#ff4d4d;
+}
+
+/*** Chart 7 ***/
+
+.chartlist6 {
+  list-style: none;
+}
+
+.chart7 {
+
+}
+
+.chart7 div {
+  font-family:courier;
+  background-color:#cc00cc;
+  border:1px solid #000000;
+  text-align:right;
+  padding:1%;
+  margin:1%;
+  color: black;
+}
+
+.chart7 div:hover {
+  background-color:#ff4d4d;
+}
+
+
+/**** END OF STATS SECTION ****/
+
+
+
+
+
+
+
+/*** INFO ORGS SECTION ***/
+
+/*** SOURCES SECTION ***/
+
+/*** FOOTER SECTION ***/
+
+#sublogo {
+  width:15%;
+}
+
+#footerpic {
+  border:1px solid #00cccc;
+  border-radius:80%;
+  width:2.5%
 }

@@ -29,4 +29,8 @@ axios.get(`https://projects.propublica.org/nonprofits/api/v2/search.json?q=${req
     });
    }
 
+ orgsController.sourceIndex = (req, res)=> {
+   res.render('orgs/sources');
+ }
+
 module.exports = orgsController;

@@ -9,5 +9,6 @@ orgRoutes.get('/', orgsController.index);
 orgRoutes.get('/stats', orgsController.statIndex);
 orgRoutes.post('/org-info', orgsController.getData);
 orgRoutes.post('/data', orgsController.getData);
+orgRoutes.get('/sources', orgsController.sourceIndex);
 
 module.exports = orgRoutes;
