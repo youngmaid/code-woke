@@ -35,7 +35,7 @@ d3.select(".chart3")
   .selectAll("div")
   .data(data2)
   .enter().append("div")
-  .style("width", function(d) { return d * 4 + "px";})
+  .style("width", function(d) { return d * 1 + "px";})
   .text(function(d) {return d + '%';})
 
   //Chart 4
