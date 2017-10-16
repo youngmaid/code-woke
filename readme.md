@@ -16,14 +16,14 @@
  Non-Profits.
 
 #Technologies Used
- +Front-End
+ *Front-End
     -Bootstrap
     -CSS Animations
- +Back-End
+ *Back-End
     -Node/Express.js
-+Third Party Api's
+*Third Party Api's
     -ProPublica List of Non-Profits
-+d3.js
+*d3.js
     -Data Visualization for basic graphs.
 
 Home: Will include a Header, logo, and tagline that describes this project.
