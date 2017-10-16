@@ -1,3 +1,8 @@
+$(function(){
+  new WOW().init();
+});
+
+
 //stat chart for D3.js
 
 //chart 1
