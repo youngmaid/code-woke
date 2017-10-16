@@ -1,13 +1,22 @@
 <% include ../partials/header %>
 
-<h1> The data </h1>
-<% data.forEach(({name, city, state}) => { %>
-  <div>
-  <h4><%= name %></h4>
-  <p><%= city %></p>
-  <p><%= state %></p>
+<div class="row">
+  <div class="col-xs-12" id="data-header">
+    <h1> The data </h1>
   </div>
-<% }) %>
+</div>
+
+<div class="row">
+  <div class="col-xs-12" id="data-txt">
+    <% data.forEach(({name, city, state}) => { %>
+      <div id="data-list">
+        <h4><%= name %></h4>
+        <p><%= city %></p>
+        <p><%= state %></p>
+      </div>
+    <% }) %>
+  </div>
+</div>
 
 <% include ../partials/footer %>
 

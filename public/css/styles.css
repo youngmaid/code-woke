@@ -6,20 +6,25 @@ body{
 /*** HEADER SECTION ***/
 
 .jumbotron {
-  background-color: #00cccc;
-  border-bottom: 2px solid #003cb3;
+  background:url('/img/jumbotron-pic.jpg') no-repeat center;
+  background-size: cover;
+  border-bottom: 2px solid #ff4d4d;
 }
 
 #logo {
-  border:1px solid #000000;
-  margin: auto;
-  width:70%;
+  border:4px solid #000000;
+  margin:auto;
+  width:60%;
 }
 
 .menu {
+  background-color:#ffffff;
+  border:2px solid #000000;
   list-style: none;
-  font-size:2em;
-  margin: 2% 28%;
+  font-size:1.5em;
+  margin:auto;
+  margin-top:4%;
+  width:40%;
 }
 
 .menu li {
@@ -33,14 +38,71 @@ body{
 
 .menu li a:hover {
   background-color:#ff4d4d;
-  text-decoration:overline;
+  text-decoration:underline;
 }
 
+/*** INDEX.EJS SECTION ***/
+
+#index-text p {
+  background-color:#d9d9d9;
+  font-size: 2em;
+  padding:5%;
+  text-align:center;
+}
+
+#next-link p {
+  font-size: 1em;
+  text-align: center;
+}
+
+#next-link a {
+  font-size: 1.1em;
+  margin:2% 44%;
+}
+
+/*** END OF INDEX EJS ***/
 
 
 /*** STATS SECTION ***/
 
 /*** chart 1 ***/
+
+#stats-header h1 {
+  font-size:3em;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color:#ff4d4d;
+}
+
+#stat-text h2 {
+  font-size: 2em;
+  padding:2%;
+}
+
+#stat-text p {
+  font-size:1.5em;
+  text-align: center;
+  margin-left:20%;
+}
+
+#graph1 {
+  width:90%;
+  margin:1% 6%;
+}
+
+#graph2, #graph4, #graph6 {
+  background-color:#e6e6e6;
+  border:1px solid #000000;
+  width:40%;
+  margin:1% 4%
+}
+
+#graph3, #graph5, #graph7 {
+  background-color:#cccccc;
+  border:1px solid #000000;
+  width:40%;
+  margin:1% 4%;
+}
 
 .chart {
   background-color: #cccccc;
@@ -66,23 +128,24 @@ body{
 /*** chart 2 ***/
 
 .chartlist {
-  width:10%;
   float:left;
   list-style:none;
+  margin-top:4%;
 }
 
 .chartlist li {
- margin-top:8%;
- padding:8%;
+ padding:2%;
 }
 
 .chart2 {
   padding:4%;
   float:left;
+  margin-left:-4%;
+  width:10%;
   }
 
 .chart2 div {
-  font: 16px courier;
+  font: 18px courier;
   background-color:aqua;
   border:1px solid #000000;
   text-align: right;
@@ -102,17 +165,19 @@ body{
   clear:both;
   float:left;
   list-style:none;
+  margin-top:5%;
 }
 
 .chartlist2 li{
-  margin-top:8%;
-  padding:12%;
+  margin-top:4%;
+  padding:4%;
 }
 
 .chart3 {
   float:left;
   margin-top:4%;
-  margin-left:6%;
+  margin-left:1%;
+  padding:2%;
   }
 
 .chart3 div {
@@ -129,19 +194,24 @@ body{
   background-color: red;
 }
 
-.chartlist3 {
-  list-style: none;
-}
 
 /*** Chart 4 ****/
 
 .chartlist3 {
   list-style: none;
+  float:left;
+  margin-top: 4%;
+}
+
+
+.chartlist3 li {
+  font-size:1.5em;
 }
 
 
 .chart4 {
-
+  float:left;
+  padding:4%;
 }
 
 .chart4 div {
@@ -150,7 +220,7 @@ body{
   border:1px solid #000000;
   text-align: right;
   padding:1%;
-  margin:1%;
+  margin:1.5%;
   color: black;
  }
 
@@ -163,9 +233,15 @@ body{
 
 .chartlist4 {
   list-style: none;
+  float:left;
+  font-size:1.25em;
+  margin-top: 4%;
 }
 
 .chart5 {
+  float:left;
+  padding:4%;
+  width:8%;
 
 }
 
@@ -174,7 +250,7 @@ body{
   background-color:#ff4d4d;
   border:1px solid #000000;
   text-align:right;
-  padding:1%;
+  padding:2%;
   margin:1%;
   color: black;
  }
@@ -187,14 +263,20 @@ body{
 
 .chartlist5 {
   list-style: none;
+  float:left;
+  font-size:1.5em;
+  margin-top:4%;
 }
 
 .chart6 {
-
+  float:left;
+  padding:4%;
+  width:%;
 }
 
 .chart6 div {
   font-family:courier;
+  font-size:1.25em;
   background-color:#cc00cc;
   border:1px solid #000000;
   text-align:right;
@@ -211,18 +293,26 @@ body{
 
 .chartlist6 {
   list-style: none;
+  float:left;
+  font-size:1.5em;
+  margin-top:2%;
+ }
+
+.chartlist6 li {
+  padding:2%;
 }
 
 .chart7 {
-
+  float:left;
+  padding:2%;
 }
 
 .chart7 div {
   font-family:courier;
+  font-size: 1.25em;
   background-color:#cc00cc;
   border:1px solid #000000;
   text-align:right;
-  padding:1%;
   margin:1%;
   color: black;
 }
@@ -231,27 +321,124 @@ body{
   background-color:#ff4d4d;
 }
 
+#citation a {
+  color:black;
+  margin:1% 8%;
+}
 
 /**** END OF STATS SECTION ****/
 
+/*** ORGS SECTION ***/
+  #orgs-header h1 {
+    font-size:2em;
+    text-align:center;
+    text-decoration: underline;
+    text-decoration-color:#ff4d4d;
+  }
 
+  #dropdown {
+    background-color:#cccccc;
+    border:1px solid #000000;
+    padding:2%;
+    font-size: 1em;
+    text-align: center;
+  }
 
+/*** END OF ORGS SECTION ***/
 
+/*** DATA SECTION ***/
+  #data-header h1{
+    font-size:2.5em;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color:#ff4d4d;
+  }
 
+  #data-txt {
+    text-align:center;
+  }
 
+  #data-list h4 {
+    text-decoration:underline;
+    text-decoration-color:#ff4d4d;
+    font-size: 1.5em;
+  }
 
-/*** INFO ORGS SECTION ***/
+  #data-list p {
+    font-size:1em;
+  }
+
+/*** END OF DATA SECTION ***/
 
 /*** SOURCES SECTION ***/
+  #source-header h1{
+    font-size:3em;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color:#ff4d4d;
+    margin:4% 0%;
+  }
+
+  #sourcebox a {
+    color:#000000;
+    text-align:center;
+  }
+
+  #sourcebox a:hover {
+    background-color: #ff4d4d;
+  }
+
+  #source1, #source2, #source3, #source4, #source5, #source6, #source7, #source8, #source9 {
+    border:1px solid #000000;
+    width:85%;
+  }
+
+  #source4 {
+    width:260px;
+    height:160px;
+  }
+
+  #source7 {
+    width:85%;
+  }
+
+  #second-row, #third-row {
+    margin-top:4%;
+  }
+
+/*** END OF SOURCES SECTION ***/
 
 /*** FOOTER SECTION ***/
 
+footer {
+  background-color:#00b3b3;
+  border-top: 2px solid #000000;
+  margin:4% 0%;
+}
+
 #sublogo {
-  width:15%;
+  width:10%;
+  margin:auto;
 }
 
 #footerpic {
-  border:1px solid #00cccc;
+  border:1px solid #ff4d4d;
   border-radius:80%;
-  width:2.5%
+  float:left;
+  width:2%;
+  margin-left:30%;
+  margin-bottom:2%;
 }
+
+#copyright-txt p{
+  float:left;
+  margin-left:1%;
+}
+
+/*** END OF FOOTER ***/
+
+
+
+
+
+

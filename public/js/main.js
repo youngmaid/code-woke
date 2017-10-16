@@ -8,7 +8,7 @@ d3.select(".chart")
   .selectAll("div")
   .data(data)
   .enter().append("div")
-  .style("width", function(d) { return d * 6 + "px"; })
+  .style("width", function(d) { return d * 10 + "px"; })
   .text(function(d) { return d + '%'; });
 
 //chart 2
@@ -30,7 +30,7 @@ d3.select(".chart3")
   .selectAll("div")
   .data(data2)
   .enter().append("div")
-  .style("width", function(d) { return d * 6 + "px";})
+  .style("width", function(d) { return d * 4 + "px";})
   .text(function(d) {return d + '%';})
 
   //Chart 4
@@ -42,7 +42,7 @@ d3.select(".chart4")
   .selectAll("div")
   .data(data3)
   .enter().append("div")
-  .style("width", function(d) { return d * 6 + "px";})
+  .style("width", function(d) { return d * 4 + "px";})
   .text(function(d) {return d + '%';})
 
 // Chart 5
@@ -53,7 +53,7 @@ d3.select(".chart5")
   .selectAll("div")
   .data(data4)
   .enter().append("div")
-  .style("width", function(d) { return d * 6 + "px";})
+  .style("width", function(d) { return d * 4 + "px";})
   .text(function(d) {return d + '%';})
 
 //Chart 6
@@ -64,7 +64,7 @@ d3.select(".chart6")
   .selectAll("div")
   .data(data5)
   .enter().append("div")
-  .style("width", function(d) { return d * 6 + "px";})
+  .style("width", function(d) { return d * 2 + "px";})
   .text(function(d) {return d + '%';})
 
 //Chart 7
@@ -75,6 +75,6 @@ d3.select(".chart7")
   .selectAll("div")
   .data(data6)
   .enter().append("div")
-  .style("width", function(d) { return d * 6 + "px";})
+  .style("width", function(d) { return d * 4 + "px";})
   .text(function(d) {return d + '%';})
 
