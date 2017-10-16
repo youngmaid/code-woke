@@ -16,15 +16,15 @@
  Non-Profits.
 
 #Technologies Used
- *Front-End
-  Bootstrap
-  CSS Animations
- *Back-End
-  Node/Express.js
-*Third Party Api's
- ProPublica List of Non-Profits
-*d3.js
- Data Visualization for basic graphs.
+ * Front-End
+ * Bootstrap
+ * CSS Animations
+ * Back-End
+ * Node/Express.js
+ * Third Party Api's
+ * ProPublica List of Non-Profits
+ * d3.js
+ * Data Visualization for basic graphs.
 
 Home: Will include a Header, logo, and tagline that describes this project.
 Stats: Bar graphs informing the user about the demographic of the tech sector.
